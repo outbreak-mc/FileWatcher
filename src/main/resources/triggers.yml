@@ -1,0 +1,9 @@
+#example-file-listener:
+#  file: "plugins/FileWatcher/file.txt"
+#  commands:
+#    - "say File %filename% (%path%) changed"
+#
+#example-directory-listener:
+#  directory: "plugins/FileWatcher"
+#  commands:
+#    - "say File %filename% (%path%) changed"

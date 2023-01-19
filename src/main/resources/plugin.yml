@@ -1,0 +1,14 @@
+name: FileWatcher
+version: '${project.version}'
+main: space.outbreak.filewatcher.FileWatcherPlugin
+api-version: 1.17
+load: STARTUP
+author: OUTBREAK
+permissions:
+  filewatcher.reload:
+    default: op
+commands:
+  filewatcherreload:
+    aliases:
+      - fwreload
+    permission: filewatcher.reload

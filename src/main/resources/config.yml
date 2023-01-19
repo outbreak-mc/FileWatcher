@@ -1,0 +1,11 @@
+# timeout for WatchService
+poll-timeout-millis: 2000
+# When text editor saves a file, the file's metadata is updated as well,
+# resulting in a duplicate event.
+# During this time, after event, new events will be ignored.
+anti-duplicate-sleep-millis: 10
+# Enables logs of registering and unregistering listeners
+logging: true
+
+# Auto reload configs of FileWatcher
+auto-reload: true
